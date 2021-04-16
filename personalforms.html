@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head><title>
+        PERSONAL FORM FILLING PAGE
+    </title>
+    <link rel="stylesheet" href="login1.css" >
+</head>
+    <BODY>
+        <DIV>
+            <FORM>
+                <h2>personal form</h2>
+                <label for="name">firtsname:</label>
+                <input type="text" name="name" id="fname" required><br/>
+                <label for="surname">surname:</label>
+                <input type="text" name="surname" id="lname"><br/>
+                <label for="age" >Age:</label>
+                <input type="number" name="age" id="AGE">
+                <Label for="dob">date of birth :</Label>
+                <input type="date" name="dob"  id="do"><br/>
+                <label for="gender">Gender: </label>
+                <ul>
+                    <li><input type="radio" name="gender" id="gender">male</li>
+                    <li><input type="radio" name="gender" id="gender">female</li>
+                    <li><input type="radio" name="gender" id="gender">others</li>
+                </ul>
+                <label for="nationality">Nationality: </label>
+                <input type="text" name="nationality" id="nationality"><br/>
+                <label for="sor">state of origin :</label>
+                <input type="text" name="sor" id="sor"><br/>
+                <label for="mstatus" >marital status</label>
+                <ul>
+                    <li><input type="checkbox" name="mstatus" id="mstatus">single</li>
+                    <li><input type="checkbox" name="mstatus" id="mstatus">married</li>
+                    <li><input type="checkbox" name="mstatus" id="mstatus">others</li>
+                </ul>
+                <label for="phystatus">physical status: </label>
+               <ul>
+                   <li><input type="radio"  name="phystatus" id="phystatus">disabled</li>
+                   <li><input type="radio" name="phystatus" id="phystatus">enabled</li>
+                   <li><input type="radio" name="phystatus" id="phystatus">others</li>
+               </ul>
+           
+               <fieldset>
+                   <h3>contact information</h3><br/>
+                   <label for="number">phonenumber: </label><br/>
+                   <input type="number" name="number"   id="number"><br/>
+                   <label for="email">email: </label><br/>
+                   <input type="email" name="email" id="email"><br/>
+                   <label for="facebook">social media handles</label><br/>
+                   <input type="url" name="facebook" ><br/>
+               </fieldset> 
+               <input type="submit" onclick="alert('the form was sunbmitted successfully')" name="submit" id="submit">
+            </FORM>
+        </DIV>
+
+    </BODY>
+</html>
